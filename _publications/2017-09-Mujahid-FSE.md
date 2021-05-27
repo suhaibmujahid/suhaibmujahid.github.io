@@ -5,6 +5,7 @@ authors: 'Suhaib Mujahid'
 permalink: /publication/2017-09-Mujahid-FSE
 date: 2017-09-01
 venue: 'Proceedings of the 11th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (FSE)'
+series: 'FSE&apos;17'
 preprent: '/papers/Mujahid_FSE2017.pdf'
 paperurl: 'https://doi.org/10.1145/3106237.3121279'
 ---

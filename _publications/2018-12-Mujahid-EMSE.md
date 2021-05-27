@@ -5,6 +5,7 @@ authors: 'Suhaib Mujahid,  Giancarlo Sierra,  Rabe Abdalkareem,  Emad Shihab,  W
 permalink: /publication/2018-12-Mujahid-EMSE
 date: 2018-12-01
 venue: 'Empirical Software Engineering Journal (EMSE)'
+series: 'EMSE&apos;21'
 preprent: '/papers/Mujahid_EMSE2018.pdf'
 paperurl: 'https://doi.org/10.1007/s10664-018-9615-8'
 ---

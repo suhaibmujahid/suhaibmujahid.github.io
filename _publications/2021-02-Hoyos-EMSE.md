@@ -5,6 +5,7 @@ authors: 'Juan Hoyos,  Rabe Abdalkareem,  Suhaib Mujahid,  Emad Shihab,  Albeiro
 permalink: /publication/2021-02-Hoyos-EMSE
 date: 2021-02-03
 venue: 'Empirical Software Engineering Journal (EMSE)'
+series: 'EMSE&apos;21'
 preprent: '/papers/Hoyos_EMSE2021.pdf'
 paperurl: 'https://doi.org/10.1007/s10664-020-09902-y'
 ---

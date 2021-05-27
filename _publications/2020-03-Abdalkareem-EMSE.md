@@ -5,6 +5,7 @@ authors: 'Rabe Abdalkareem,  Vinicius Oda,  Suhaib Mujahid,  Emad Shihab'
 permalink: /publication/2020-03-Abdalkareem-EMSE
 date: 2020-03-01
 venue: 'Empirical Software Engineering Journal (EMSE)'
+series: 'EMSE&apos;20'
 preprent: '/papers/Abdalkareem_EMSE2020.pdf'
 paperurl: 'https://doi.org/10.1007/s10664-019-09792-9'
 ---

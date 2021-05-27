@@ -155,6 +155,9 @@ for pubsource in publist:
                 md += " (%s)" % re.sub("\'\d*$", "", b["series"]).strip()
             md += "'"
 
+            if "series" in b.keys():
+                md += "\nseries: '" + html_escape(b["series"]) + "'"
+
             preprint = "/papers/%s.pdf" % entry.key
             if os.path.isfile(".."+preprint):
                 md += "\npreprent: '" + preprint + "'"

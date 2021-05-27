@@ -5,6 +5,7 @@ authors: 'Suhaib Mujahid,  Rabe Abdalkareem,  Emad Shihab,  Shane McIntosh'
 permalink: /publication/2020-06-Mujahid-MSR
 date: 2020-06-01
 venue: 'Proceedings of the 17th International Conference on Mining Software Repositories (MSR)'
+series: 'MSR&apos;20'
 preprent: '/papers/Mujahid_MSR2020.pdf'
 paperurl: 'https://doi.org/10.1145/3379597.3387476'
 ---
