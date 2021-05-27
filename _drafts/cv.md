@@ -11,16 +11,24 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Jan 2018 - Present 
+PhD in Software Engineering
+Concordia University, Montreal, QC, Canada
+
+* Sep 2016 - Dec 2017
+MASc in Software Engineering
+Concordia University, Montreal, QC, Canada
+
+* Feb 2011 - Dec 2015 
+BASc in Information Systems
+Palestine Polytechnic University, Hebron, Palestine
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Sep 2016 - Present
+Research Assistant
+Data-driven Analysis of Software Lab
+Concordia University, Montreal, QC, Canada
 
 * Fall 2015: Research Assistant
   * Github University
