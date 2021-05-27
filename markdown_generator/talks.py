@@ -66,9 +66,8 @@ loc_dict = {}
 
 for row, item in talks.iterrows():
     
-    md_filename = str(item.date) + "-" + item.url_slug + ".md"
-    html_filename = str(item.date) + "-" + item.url_slug 
-    year = item.date[:4]
+    html_filename = str(item.date[:8])+ item.url_slug 
+    md_filename = html_filename + ".md"
     
     md = "---\ntitle: \""   + item.title + '"\n'
     md += "collection: talks" + "\n"
@@ -88,6 +87,9 @@ for row, item in talks.iterrows():
     
     if len(str(item.location)) > 3:
         md += 'location: "' + str(item.location) + '"\n'
+
+    if len(str(item.paper_id)) > 3:
+        md += 'paper_id: "' + str(item.paper_id) + '"\n'
            
     md += "---\n"
     
