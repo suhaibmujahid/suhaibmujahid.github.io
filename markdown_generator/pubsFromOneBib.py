@@ -133,9 +133,11 @@ for pubsource in publist:
 
             # YAML variables
             md = "---\ntitle: \"" + \
-                html_escape(clean_bib_text(b["title"])) + '"\n'
+                html_escape(clean_bib_text(b["title"])) + '"'
 
-            md += """collection: """ + publist[pubsource]["collection"]["name"]
+            md += """\npaper_id: """ + entry.key
+
+            md += """\ncollection: """ + publist[pubsource]["collection"]["name"]
 
             md += "\nauthors: '" + html_escape(authors) + "'"
 
@@ -160,7 +162,7 @@ for pubsource in publist:
 
             preprint = "/papers/%s.pdf" % entry.key
             if os.path.isfile(".."+preprint):
-                md += "\npreprent: '" + preprint + "'"
+                md += "\npreprint: '" + preprint + "'"
 
             url = False
             if "url" in b.keys():
