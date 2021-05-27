@@ -1,0 +1,246 @@
+@inproceedings{Abdalkareem_FSE2017,
+  author    = {Abdalkareem, Rabe and Nourry, Olivier and Wehaibi, Sultan and Mujahid, Suhaib and Shihab, Emad},
+  title     = {Why Do Developers Use Trivial Packages? An Empirical Case Study on npm},
+  year      = {2017},
+  month     = {September},
+  isbn      = {9781450351058},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/3106237.3106267},
+  doi       = {10.1145/3106237.3106267},
+  booktitle = {Proceedings of the 11th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  pages     = {385–395},
+  numpages  = {11},
+  keywords  = {Node.js, Code Reuse, Empirical Studies, JavaScript},
+  location  = {Paderborn, Germany},
+  series    = {FSE'17},
+  abstract  = {Code reuse is traditionally seen as good practice. Recent trends have pushed the concept of code reuse to an extreme, by using packages that implement simple and trivial tasks, which we call "trivial packages". A recent incident where a trivial package led to the breakdown of some of the most popular web applications such as Facebook and Netflix made it imperative to question the growing use of trivial packages. Therefore, in this paper, we mine more than 230,000 npm packages and 38,000 JavaScript applications in order to study the prevalence of trivial packages. We found that trivial packages are common and are increasing in popularity, making up 16.8% of the studied npm packages. We performed a survey with 88 Node.js developers who use trivial packages to understand the reasons and drawbacks of their use. Our survey revealed that trivial packages are used because they are perceived to be well implemented and tested pieces of code. However, developers are concerned about maintaining and the risks of breakages due to the extra dependencies trivial packages introduce. To objectively verify the survey results, we empirically validate the most cited reason and drawback and find that, contrary to developers' beliefs, only 45.2% of trivial packages even have tests. However, trivial packages appear to be `deployment tested' and to have similar test, usage and community interest as non-trivial packages. On the other hand, we found that 11.5% of the studied trivial packages have more than 20 dependencies. Hence, developers should be careful about which trivial packages they decide to use.}
+}
+
+@article{Abdalkareem_TSE2019,
+  author   = {Rabe Abdalkareem and Suhaib Mujahid and Emad Shihab and Juergen Rilling},
+  journal  = {IEEE Transactions on Software Engineering Journal},
+  series   = {TSE'19},
+  title    = {Which commits can be {CI} skipped?},
+  year     = {2019},
+  month    = {February},
+  volume   = {47},
+  number   = {3},
+  pages    = {448-463},
+  doi      = {10.1109/TSE.2019.2897300},
+  abstract = {Continuous Integration (CI) frameworks such as Travis CI, automatically build and run tests whenever a new commit is submitted/pushed. Although there are many advantages in using CI, e.g., speeding up the release cycle and automating the test execution process, it has been noted that the CI process can take a very long time to complete. One of the possible reasons for such delays is the fact that some commits (e.g., changes to readme files) unnecessarily kick off the CI process. Therefore, the goal of this paper is to automate the process of determining which commits can be CI skipped. We start by examining the commits of 58 Java projects and identify commits that were explicitly CI skipped by developers. Based on the manual investigation of 1,813 explicitly CI skipped commits, we first devise an initial model of a CI skipped commit and use this model to propose a rule-based technique that automatically identifies commits that should be CI skipped. To evaluate the rule-based technique, we perform a study on unseen datasets extracted from ten projects and show that the devised rule-based technique is able to detect and label CI skip commits, achieving Areas Under the Curve (AUC) values between 0.56 and 0.98 (average of 0.73). Additionally, we show that, on average, our technique can reduce the number of commits that need to trigger the CI process by 18.16 percent. We also qualitatively triangulated our analysis on the importance of skipping the CI process through a survey with 40 developers. The survey results showed that 75 percent of the surveyed developers consider it to be nice, important or very important to have a technique that automatically flags CI skip commits. To operationalize our technique, we develop a publicly available prototype tool, called CI-Skipper , that can be integrated with any git repository and automatically mark commits that can be CI skipped.}
+}
+
+@inproceedings{Cabral_ICSE2019,
+  author    = {George G. Cabral and Leandro L. Minku and Emad Shihab and Suhaib Mujahid},
+  booktitle = {Proceedings of the 41st {IEEE/ACM} International Conference on Software Engineering},
+  series    = {ICSE'19},
+  title     = {Class imbalance evolution and verification latency in just-in-time software defect prediction},
+  year      = {2019},
+  month     = {May},
+  volume    = {},
+  number    = {},
+  pages     = {666-676},
+  doi       = {10.1109/ICSE.2019.00076},
+  abstract  = {Just-in-Time Software Defect Prediction (JIT-SDP) is an SDP approach that makes defect predictions at the software change level. Most existing JIT-SDP work assumes that the characteristics of the problem remain the same over time. However, JIT-SDP may suffer from class imbalance evolution. Specifically, the imbalance status of the problem (i.e., how much underrepresented the defect-inducing changes are) may be intensified or reduced over time. If occurring, this could render existing JIT-SDP approaches unsuitable, including those that re-build classifiers over time using only recent data. This work thus provides the first investigation of whether class imbalance evolution poses a threat to JIT-SDP. This investigation is performed in a realistic scenario by taking into account verification latency -- the often overlooked fact that labeled training examples arrive with a delay. Based on 10 GitHub projects, we show that JIT-SDP suffers from class imbalance evolution, significantly hindering the predictive performance of existing JIT-SDP approaches. Compared to state-of-the-art class imbalance evolution learning approaches, the predictive performance of JIT-SDP approaches was up to 97.2% lower in terms of g-mean. Hence, it is essential to tackle class imbalance evolution in JIT-SDP. We then propose a novel class imbalance evolution approach for the specific context of JIT-SDP. While maintaining top ranked g-means, this approach managed to produce up to 63.59% more balanced recalls on the defect-inducing and clean classes than state-of-the-art class imbalance evolution approaches. We thus recommend it to avoid overemphasizing one class over the other in JIT-SDP.}
+}
+
+@inproceedings{Mujahid_ICSME2018,
+  author    = {Suhaib Mujahid and Rabe Abdalkareem and Emad Shihab},
+  booktitle = {Proceedings of the 2018 IEEE International Conference on Software Maintenance and Evolution},
+  series    = {ICSME'18},
+  title     = {Studying permission related issues in Android Wearable apps},
+  year      = {2018},
+  month     = {September},
+  volume    = {},
+  number    = {},
+  pages     = {345-356},
+  doi       = {10.1109/ICSME.2018.00043},
+  abstract  = {Wearable devices are becoming increasingly popular; these devices host software that is known as wearable apps. Wearable apps could be packaged alongside handheld apps, hence they must be installed on the accompanying device (e.g., smartphone). This device dependency causes both apps to be also tightly coupled. Most importantly, when a wearable app is distributed by embedded it in a handheld app, Android Wear platform requires to include the wearable permission also in the handheld app which is error-prone. In this paper, we defined two permission issues related to wearable apps-namely permission mismatches and superfluous features. To study the permission related issues, we propose a technique to detect permission issues in wearable apps. We implement our technique in a tool called Permlyzer, which automatically detects these permission issues from an app's APK. We run Permlyzer on a dataset of 2,724 apps that have embedded wearable version and 339 standalone wearable app. Our result shows that I) 6% of wearable apps that request permissions are suffering from the permission mismatching problem; II) out of the apps that requires underlying features, 523 (52.4%) of handheld apps and 66 (80.5%) of standalone wearable apps have at least one superfluous feature; III) all the studied apps missed a declaration of underlying features for one or more of their permissions, which shows that developers may not know the mapping between the permissions they request and the hardware features. Additionally, in a survey of wearable app developers, all of the developers that responded mention that having a tool like Permlyzer, that detect permission related issues would be useful to them. Our results contribute to the understanding of permissions related issues in wearable apps, in particular, proposing a technique to detect permission mismatch and superfluous features.}
+}
+
+@inproceedings{Mujahid_FSE2017,
+  author    = {Mujahid, Suhaib},
+  title     = {Detecting wearable app permission mismatches: a case study on Android Wear},
+  year      = {2017},
+  month     = {September},
+  isbn      = {9781450351058},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/3106237.3121279},
+  doi       = {10.1145/3106237.3121279},
+  abstract  = {Wearable devices are becoming increasingly popular. These wearable devices run what is known as wearable apps. Wearable apps are packaged with handheld apps, that must be installed on the accompanying handheld device (e.g., phone).  Given that wearable apps are tightly coupled with the handheld apps, any wearable permission must also be requested in the handheld version of the app on the Android Wear platform. However, in some cases, the wearable apps may request permissions that do not exist in the handheld app, resulting in a permission mismatch, and causing the wearable app to error or crash. In this paper, we propose a technique to detect wear app permission mismatches. We perform a case study on 2,409 free Android Wear apps and find that 73 released wearable apps suffer from the permission mismatch problem. },
+  booktitle = {Proceedings of the 11th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  pages     = {1065–1067},
+  numpages  = {3},
+  keywords  = {Detect, Android Wear, Permissions, Mismatch},
+  location  = {Paderborn, Germany},
+  series    = {FSE'17}
+}
+
+@article{Abdalkareem_TSE2020,
+  author   = {Rabe Abdalkareem and Suhaib Mujahid and Emad Shihab},
+  journal  = {IEEE Transactions on Software Engineering Journal},
+  series   = {TSE'20},
+  title    = {A machine learning approach to improve the detection of {CI} skip commits},
+  year     = {2020},
+  month    = {January},
+  volume   = {47},
+  number   = {3},
+  pages    = {448-463},
+  doi      = {10.1109/TSE.2020.2967380},
+  abstract = {Continuous integration (CI) frameworks, such as Travis CI, are growing in popularity, encouraged by market trends towards speeding up the release cycle and building higher-quality software. A key facilitator of CI is to automatically build and run tests whenever a new commit is submitted/pushed. Despite the many advantages of using CI, it is known that the CI process can take a very long time to complete. One of the core causes for such delays is the fact that some commits (e.g., cosmetic changes) unnecessarily kick off the CI process. Therefore, the main goal of this paper is to automate the process of determining which commits can be CI skipped through the use of machine learning techniques. We first extracted 23 features from historical data of ten software repositories. Second, we conduct a study on the detection of CI skip commits using machine learning, where we built a decision tree classifier. We then examine the accuracy of using the decision tree in detecting CI skip commits. Our results show that the decision tree can identify CI skip commits with an average AUC equal to 0.89. Furthermore, the top node analysis shows that the number of developers who changed the modified files, the CI-Skip rules, and commit message are the most important features to detect CI skip commits. Finally, we investigate the generalizability of identifying CI skip commits through applying cross-project validation, and our results show that the general classifier achieves an average 0.74 of AUC values.}
+}
+
+@inproceedings{Mujahid_MSR2020,
+  author    = {Mujahid, Suhaib and Abdalkareem, Rabe and Shihab, Emad and McIntosh, Shane},
+  title     = {Using others' tests to identify breaking updates},
+  year      = {2020},
+  month     = {June},
+  isbn      = {9781450375177},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/3379597.3387476},
+  doi       = {10.1145/3379597.3387476},
+  abstract  = {The reuse of third-party packages has become a common practice in contemporary software development. Software dependencies are constantly evolving with newly added features and patches that fix bugs in older versions. However, updating dependencies could introduce new bugs or break backward compatibility. In this work, we propose a technique to detect breakage-inducing versions of third-party dependencies. The key insight behind our approach is to leverage the automated test suites of other projects that depend upon the same dependency to test newly released versions. We conjecture that this crowd-based approach will help to detect breakage-inducing versions because it broadens the set of realistic usage scenarios to which a package version has been exposed. To evaluate our conjecture, we perform an empirical study of 391,553 npm packages. We use the dependency network from these packages to identify candidate tests of third-party packages. Moreover, to evaluate our proposed technique, we mine the history of this dependency network to identify ten breakage-inducing versions. We find that our proposed technique can detect six of the ten studied breakage-inducing versions. Our findings can help developers to make more informed decisions when they update their dependencies.},
+  booktitle = {Proceedings of the 17th International Conference on Mining Software Repositories},
+  pages     = {466–476},
+  numpages  = {11},
+  keywords  = {Software Testing, JavaScript, Node.js, Software Quality, Software Ecosystems, Empirical Studies},
+  location  = {Seoul, Republic of Korea},
+  series    = {MSR'20}
+}
+
+@article{Costa_TSE2021,
+  author   = {Diego Elias Costa and Suhaib Mujahid and Rabe Abdalkareem and Emad Shihab},
+  journal  = {IEEE Transactions on Software Engineering Journal},
+  series   = {TSE'21},
+  title    = {Breaking Type-Safety in Go: An Empirical Study on the Usage of the unsafe Package},
+  year     = {2021},
+  month    = {February},
+  abstract = {A decade after its first release, the Go programming language has become a major programming language in the development landscape. While praised for its clean syntax and C-like performance, Go also contains a strong static type-system that prevents arbitrary type casting and arbitrary memory access, making the language type-safe by design. However, to give developers the possibility of implementing low-level code, Go ships with a special package called unsafe that offers developers a way around the type-safety of Go programs. The package gives greater flexibility to developers but comes at a higher risk of runtime errors, chances of non-portability, and the loss of compatibility guarantees for future versions of Go. In this paper, we present the first large-scale study on the usage of the unsafe package in 2,438 popular Go projects. Our investigation shows that unsafe is used in 24% of Go projects, motivated primarily by communicating with operating systems and C code but is also commonly used as a source of performance optimization. Developers are willing to use unsafe to break language specifications (e.g., string immutability) for better performance and 6% of analyzed projects that use unsafe perform risky pointer conversions that can lead to program crashes and unexpected behavior. Furthermore, we report a series of real issues faced by projects that use unsafe, from crashing errors and non-deterministic behavior to having their deployment restricted from certain popular environments. Our findings can be used to understand how and why developers break type-safety in Go and help motivate further tools and language development that could make the usage of unsafe in Go even safer.},
+  volume   = {},
+  number   = {},
+  pages    = {1-1},
+  doi      = {10.1109/TSE.2021.3057720}
+}
+
+@mastersthesis{Mujahid_Thesis2018,
+  title   = {Determining and Detecting Permission Issues of Wearable Apps},
+  author  = {Mujahid, Suhaib},
+  year    = {2018},
+  month   = {1},
+  url     = {https://spectrum.library.concordia.ca/983405},
+  school  = {Concordia University},
+  address = {Montreal, Quebec ,Canada}
+}
+
+
+###phdthesis{Mujahid_Thesis2021,
+  title   = {Managing Package Dependencies in Software Ecosystems},
+  author  = {Mujahid, Suhaib},
+  year    = {2021},
+  month   = {9},
+  url     = {},
+  note    = {Under Progress},
+  school  = {Concordia University},
+  address = {Montreal, Quebec ,Canada}
+}
+
+@article{Chen_EMSE2021,
+  author   = {Chen, Xiaowei and Abdalkareem, Rabe and Mujahid, Suhaib and Shihab, Emad and Xia, Xin},
+  title    = {Helping or not helping? Why and how trivial packages impact the npm ecosystem},
+  journal  = {Empirical Software Engineering Journal},
+  series   = {EMSE'21},
+  year     = {2021},
+  month    = {Mar},
+  day      = {02},
+  volume   = {26},
+  number   = {2},
+  pages    = {27},
+  abstract = {Developers often share their code snippets by packaging them and making them available to others through software packages. How much a package does and how big it is can be seen as positive or negative. Recent studies showed that many packages that exist in the npm ecosystem are trivial and may introduce high dependency overhead. Hence, one question that arises is why developers choose to publish these trivial packages. Therefore, in this paper, we perform a developer-centered study to empirically examine why developers choose to publish such trivial packages. Specifically, we ask 1) why developers publish trivial packages, 2) what they believe to be the possible negative impacts of these packages, and 3) how such negative issues can be mitigated. The survey response of 59 JavaScript developers who publish trivial npm packages showed that the main advantages for publishing these trivial packages are to provide reusable components, testing {\&} documentation, and separation of concerns. Even the developers who publish these trivial packages admitted to having issues when they publish such packages, which include the maintenance of multiple packages, dependency hell, finding the right package, and the increase of duplicated packages in the ecosystems. Furthermore, we found that the majority of the developers suggested grouping these trivial packages to cope with the problems associated with publishing them. Then, to quantitatively investigate the impact of these trivial packages on the npm ecosystem and its users, we examine grouping these trivial packages. We found that if trivial packages that are always used together are grouped, the ecosystem can reduce the number of dependencies by approximately 13{\%}. Our findings shed light on the impact of publishing trivial packages and show that ecosystems and developer communities need to rethink their publishing policies since it can negatively impact the developers and the entire ecosystem.},
+  issn     = {1573-7616},
+  doi      = {10.1007/s10664-020-09904-w},
+  url      = {https://doi.org/10.1007/s10664-020-09904-w}
+}
+
+@article{Hoyos_EMSE2021,
+  author   = {Hoyos, Juan and Abdalkareem, Rabe and Mujahid, Suhaib and Shihab, Emad and Bedoya, Albeiro Espinosa},
+  title    = {On the Removal of Feature Toggles},
+  journal  = {Empirical Software Engineering Journal},
+  series   = {EMSE'21},
+  year     = {2021},
+  month    = {Feb},
+  day      = {03},
+  volume   = {26},
+  number   = {2},
+  pages    = {15},
+  abstract = {Feature Toggling is a technique to control the execution of features in a software project. For example, practitioners using feature toggles can experiment with new features in a production environment by exposing them to a subset of users. Some of these toggles require additional maintainability efforts and are expected to be removed, whereas others are meant to remain for a long time. However, to date, very little is known about the removal of feature toggles, which is why we focus on this topic in our paper. We conduct an empirical study that focuses on the removal of feature toggles. We use source code analysis techniques to analyze 12 Python open source projects and surveyed 61 software practitioners to provide deeper insights on the topic. Our study shows that 75{\%} of the toggle components in the studied Python projects are removed within 49 weeks after introduction. However, eventually practitioners remove feature toggles to follow the life cycle of a feature when it becomes stable in production. We also find that not all long-term feature toggles are designed to live that long and not all feature toggles are removed from the source code, opening the possibilities to unwanted risks. Our study broadens the understanding of feature toggles by identifying reasons for their survival in practice and aims to help practitioners make better decisions regarding the way they manage and remove feature toggles.},
+  issn     = {1573-7616},
+  doi      = {10.1007/s10664-020-09902-y},
+  url      = {https://doi.org/10.1007/s10664-020-09902-y}
+}
+
+@article{Abdalkareem_EMSE2020,
+  author   = {Abdalkareem, Rabe and Oda, Vinicius and Mujahid, Suhaib and Shihab, Emad},
+  title    = {On the impact of using trivial packages: an empirical case study on npm and PyPI},
+  journal  = {Empirical Software Engineering Journal},
+  series   = {EMSE'20},
+  year     = {2020},
+  month    = {Mar},
+  day      = {01},
+  volume   = {25},
+  number   = {2},
+  pages    = {1168-1204},
+  abstract = {Code reuse has traditionally been encouraged since it enables one to avoid re-inventing the wheel. Due to the npm left-pad package incident where a trivial package led to the breakdown of some of the most popular web applications such as Facebook and Netflix, some questioned such reuse. Reuse of trivial packages is particularly prevalent in platforms such as npm. To date, there is no study that examines the reason why developers reuse trivial packages other than in npm. Therefore, in this paper, we study two large platforms npm and PyPI. We mine more than 500,000 npm packages and 38,000 JavaScript applications and more than 63,000 PyPI packages and 14,000 Python applications to study the prevalence of trivial packages. We found that trivial packages are common, making up between 16.0{\%} to 10.5{\%} of the studied platforms. We performed surveys with 125 developers who use trivial packages to understand the reasons and drawbacks of their use. Our surveys revealed that trivial packages are used because they are perceived to be well implemented and tested pieces of code. However, developers are concerned about maintaining and the risks of breakages due to the extra dependencies trivial packages introduce. To objectively verify the survey results, we validate the most cited reason and drawback. We find that contrary to developers' beliefs only around 28{\%} of npm and 49{\%} PyPI trivial packages have tests. However, trivial packages appear to be "deployment tested" and to have similar test, usage and community interest as non-trivial packages. On the other hand, we found that 18.4{\%} and 2.9{\%} of the studied trivial packages have more than 20 dependencies in npm and PyPI, respectively.},
+  issn     = {1573-7616},
+  doi      = {10.1007/s10664-019-09792-9},
+  url      = {https://doi.org/10.1007/s10664-019-09792-9}
+}
+
+@article{Mujahid_EMSE2018,
+  author   = {Mujahid, Suhaib and Sierra, Giancarlo and Abdalkareem, Rabe and Shihab, Emad and Shang, Weiyi},
+  title    = {An empirical study of Android Wear user complaints},
+  journal  = {Empirical Software Engineering Journal},
+  series   = {EMSE'21},
+  year     = {2018},
+  month    = {Dec},
+  day      = {01},
+  volume   = {23},
+  number   = {6},
+  pages    = {3476-3502},
+  abstract = {Wearable apps are becoming increasingly popular in recent years. Nevertheless, to date, very few studies have examined the issues that wearable apps face. Prior studies showed that user reviews contain a plethora of insights that can be used to understand quality issues and help developers build better quality mobile apps. Therefore, in this paper, we mine user reviews in order to understand the user complaints about wearable apps. We manually sample and categorize 2,667 reviews from 19 Android wearable apps. Additionally, we examine the replies posted by developers in response to user complaints. This allows us to determine the type of complaints that developers care about the most, and to identify problems that despite being important to users, do not receive a proper response from developers. Our findings indicate that the most frequent complaints are related to Functional Errors, Cost, and Lack of Functionality, whereas the most negatively impacting complaints are related to Installation Problems, Device Compatibility, and Privacy {\&} Ethical Issues. We also find that developers mostly reply to complaints related to Privacy {\&} Ethical Issues, Performance Issues, and notification related issues. Furthermore, we observe that when developers reply, they tend to provide a solution, request more details, or let the user know that they are working on a solution. Lastly, we compare our findings on wearable apps with the study done by Khalid et al. (2015) on handheld devices. From this, we find that some complaint types that appear in handheld apps also appear in wearable apps; though wearable apps have unique issues related to Lack of Functionality, Installation Problems, Connection {\&} Sync, Spam Notifications, and Missing Notifications. Our results highlight the issues that users of wearable apps face the most, and the issues to which developers should pay additional attention to due to their negative impact.},
+  issn     = {1573-7616},
+  doi      = {10.1007/s10664-018-9615-8},
+  url      = {https://doi.org/10.1007/s10664-018-9615-8}
+}
+
+@inproceedings{Mujahid_MOBILESoft2017,
+  author    = {Suhaib Mujahid and Giancarlo Sierra and Rabe Abdalkareem and Emad Shihab and Weiyi Shang},
+  booktitle = {Proceedings of the 4th {IEEE/ACM} International Conference on Mobile Software Engineering and Systems},
+  title     = {Examining User Complaints of Wearable Apps: A Case Study on Android Wear},
+  year      = {2017},
+  month     = {May},
+  volume    = {},
+  number    = {},
+  pages     = {96-99},
+  doi       = {10.1109/MOBILESoft.2017.25},
+  series    = {MOBILESoft'17},
+  abstract  = {Wearable apps are becoming increasingly popular in recent years. However, to date, very few studies examined the issues that wearable apps face. Prior studies showed that user reviews contain a plethora of insights that can be used to understand quality issues and help developers build better quality mobile apps. Therefore, in this paper, we mine user reviews in order to understand the user complaints of wearable apps. We manually sample and categorize 589 reviews from 6 Android wearable apps. Our findings indicate that the most frequent complaints are related to functional errors, lack of functionality, and cost. Our results are useful to the wearable developer community since they highlight the issues that users face and care most about.}
+}
+
+###unpublished{Mujahid_TEM2021a,
+  author = {Suhaib Mujahid and Rabe Abdalkareem and Emad Shihab},
+  title  = {What are the characteristics of highly-used packages? A case study on the npm ecosystem},
+  note   = {Submited to IEEE Transactions on Engineering Management Journal},
+  series  = {TEM'21},
+  year   = {2021}
+}
+  
+@unpublished{Mujahid_TEM2021b,
+  author = {Suhaib Mujahid and Diego Elias Costa and Rabe Abdalkareem and Emad Shihab and Mohamed Aymen Saied and Bram Adams},
+  title  = {Towards using package centrality trend to identify packages in decline},
+  note   = {Submited to IEEE Transactions on Engineering Management Journal},
+  series = {TEM'21},
+  year   = {2021}
+}
