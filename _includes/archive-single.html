@@ -41,8 +41,8 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          <p>{{ post.authors }}</p>
-          <p>
+          <p class="paper-authors">{{ post.authors }}</p>
+          <p class="paper-venue">
             Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} 
             {% if post.preprint %}
               - <a href=" {{ post.preprint }} ">PDF</a>
